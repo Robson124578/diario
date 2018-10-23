@@ -23,8 +23,8 @@
 			</div>
 			<div class="menu col-12 row" id="menu-cel">
 				<ul>
-					<li><a href="">notas</a></li>
-					<li><a href="">turmas</a></li>
+					<li><a href="notas.html">notas</a></li>
+					<li><a href="turmas.html">turmas</a></li>
 					<li><a href="anotacoes.html">anotações</a></li>
 					<li><a href="planoDeAula.html">plano de aula</a></li>
 					<li><a href="chamada.html">chamada</a></li>
@@ -33,11 +33,12 @@
 		</nav>
 		<section class="col-12 row">
 			<div class="container-conteudo col-12 row">
+				<div class="botoes-plano-de-aula col-12 row">
+					<i class="fas fa-pencil-alt" title="Adicionar Plano de Aula."></i>
+					<h3>Adicionar</h3>
+				</div>
 				<div class="planoDeAula col-12 row">
 					<div class="cabecalhoPlanosDeAula row col-12">	
-						<header>
-							<h3>plano de aula</h3>
-						</header>
 						<form>
 							<label for="tema">tema:</label>
 							<input type="text" name="tema" id="tema" placeholder="Preencha aqui..." required="" title="Digite o tema do plano de aula.">
@@ -51,10 +52,15 @@
 							<input type="text" name="recursos" id="recursos" placeholder="Preencha aqui..." required="" title="Recurssos que serão utilizados.">
 							<label for="referencias">referências:</label>
 							<input type="text" name="referencias" id="referencias" placeholder="Preencha aqui..." required="" title="Referências utilizadas">
-
+							<button type="submit">salvar</button>
 						</form>
 					</div>	
 				</div>
+					<div class="cabecalhoPlanosDeAula">
+						<header>
+							<h3>planos de aula salvos</h3>
+						</header>
+					</div>
 			</div>
 		</section>
 		<footer>
