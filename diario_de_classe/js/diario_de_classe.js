@@ -1,25 +1,19 @@
-// function botaoMenu() {
-// 	var botao = document.getElementById("menu-cel").className += " aparecer";
-// 	if ( botao == aparecer) {
-// 		document.getElementById("menu-cel").className.replace("aparecer","sumir")
-// 	}
-// }
-function botaoMenu() {
-	var botao =	document.getElementById("menu-cel");
-	if (botao.classList.contains("menu")) {
-			botao.className += " aparecer";
-	}
-	else if (botao.classList.contains("aparecer")) {
-			botao.className.remove("aparecer");
-	} 
+/********************************/
+/**função para o menu principal**/
+/********************************/
 
+function botaoMenu() {
+	 document.getElementById("menu-cel").classList.toggle("aparecer");
+ }
+
+/********************************/
+/**função para o menu principal**/
+/********************************/
+
+function botaoPlanosDeAula() {
+	document.getElementById("planosDeAula").classList.toggle("aparecer");
 }
 
-
-/***********Ações da Página Anotações***************/
-
-function estenderAnotacao() {
-	 document.getElementsById("anot").style.overflow = "visible";
-	
-	}
-
+function botaoanotacoes() {
+	document.getElementById("idAnotacao").classList.toggle("aparecer")
+}

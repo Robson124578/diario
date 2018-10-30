@@ -1,0 +1,662 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"animati",
+				"animation-name"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"col",
+				"col-12"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"a",
+				"a\tTag"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"ae",
+				"article\tTag"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"COL",
+				"col-12"
+			],
+			[
+				"contai",
+				"container-programas"
+			],
+			[
+				"sub",
+				"subcontainers-geral"
+			],
+			[
+				"con",
+				"container2"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"nome",
+				"nomeCompleto"
+			],
+			[
+				"al",
+				"alternate"
+			],
+			[
+				"animation",
+				"animation-direction"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"anima",
+				"animation-iteration-count"
+			],
+			[
+				"onsi",
+				"onsubmit\tAttr"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"valo",
+				"valor2"
+			],
+			[
+				"va",
+				"valor1"
+			],
+			[
+				"valor",
+				"valor1"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"bore",
+				"border-top"
+			],
+			[
+				"o",
+				"opacity"
+			],
+			[
+				"usu",
+				"Usuário"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"tex",
+				"text-orientation"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"bo",
+				"box-sizing"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"Fo",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"clo",
+				"col_10"
+			],
+			[
+				"ta",
+				"text-align"
+			],
+			[
+				"mat",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"forma",
+				"formacao"
+			],
+			[
+				"whi",
+				"width"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"backgroun",
+				"background-size"
+			],
+			[
+				"fi",
+				"figure\tTag"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"co",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 469.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"theme ",
+				"UI: Select Theme"
+			],
+			[
+				"Contro",
+				"Install Package Control"
+			]
+		],
+		"width": 605.0
+	},
+	"console":
+	{
+		"height": 171.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"theme - DC",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"\"theme\": \"DC_3.sublime-theme\"",
+			"theme - DC"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp64/www/diario_de_classe/html/anotacoes.html",
+		"/C/wamp64/www/diario_de_classe/html/planoDeAula.html",
+		"/C/wamp64/www/diario_de_classe/css/anotacoes.css",
+		"/C/wamp64/www/diario_de_classe/index.html",
+		"/C/wamp64/www/PIM/index.html",
+		"/C/wamp64/www/PIM/css/cssPadrao.css",
+		"/C/wamp64/www/PIM/diarioDeClasseAnotacoes.html",
+		"/C/wamp64/www/PIM/css/padrao.css",
+		"/C/wamp64/www/treino/index.html",
+		"/C/wamp64/www/PIM/login.html",
+		"/C/wamp64/www/PIM/diarioDeClasseTurmas.html",
+		"/C/wamp64/www/PIM/diarioDeClassePlanoDeAula.html",
+		"/C/wamp64/www/PIM/diarioDeClasseListaDeChamada.html",
+		"/C/wamp64/www/PIM/diarioDeClasseNotas.html",
+		"/C/wamp64/www/desafio/css/index.css",
+		"/C/wamp64/www/PIM/Js/login.js",
+		"/C/wamp64/www/desafio/index.html",
+		"/C/wamp64/www/grid/index.html",
+		"/C/wamp64/www/grid/css/grid.css",
+		"/C/wamp64/www/desafio/css/grade01.css",
+		"/C/wamp64/www/desafio/grade01.html",
+		"/C/wamp64/www/desafio/css/grade.css",
+		"/C/wamp64/www/desafio/grade.html",
+		"/C/wamp64/www/desafio/desafio/grade.html",
+		"/C/wamp64/www/desafio/desafio/css/grade.css",
+		"/C/wamp64/www/desafio/css/desafio.css",
+		"/C/wamp64/www/desafio/css/grid.css",
+		"/C/Users/Robson/desafio/desafio/index.html",
+		"/C/wamp64/www/desafio/index.html.html",
+		"/C/wamp64/www/bootstrap/arquivos iniciais/unidade03/exercicio03.html",
+		"/C/wamp64/www/desafio/desafio.html",
+		"/C/wamp64/www/desafio/jessica.html",
+		"/C/wamp64/www/bootstrap/arquivos iniciais/unidade03/exercicio05.html",
+		"/C/wamp64/www/bootstrap/arquivos iniciais/unidade03/exercicio02.html",
+		"/C/wamp64/www/bootstrap/arquivos iniciais/unidade03/exercicio04.html",
+		"/C/wamp64/www/testes/css/transitions.css",
+		"/C/wamp64/www/testes/transitions.html",
+		"/C/wamp64/www/PIM/css/cssLogin.css",
+		"/C/Users/Robson/Desktop/vanilla.js",
+		"/C/wamp64/www/javaScript/formularioComJavaScript.html",
+		"/C/wamp64/www/javaScript/js/exemploDeJavaScriptParaFormulario.js",
+		"/C/wamp64/www/jQuery/index.html.html",
+		"/C/wamp64/www/jQuery/jquery-3.3.1.min.js",
+		"/C/wamp64/www/jQuery/jQuery/jQuery v3.3.1.js",
+		"/C/wamp64/www/jQuery.html",
+		"/C/wamp64/www/treino/css/treino.css",
+		"/C/wamp64/www/javaScript/aula02.html",
+		"/C/wamp64/www/javaScript/aula03.html",
+		"/C/Games/Need for Speed Carbon/NFSC.exe",
+		"/C/Users/Robson/Desktop/index.html/unidade04/ex04-funcao-com-parametro.html",
+		"/C/wamp64/www/exercicio/css/teste.css",
+		"/C/wamp64/www/exercicio/teste.html",
+		"/C/Users/Robson/Desktop/index.html/unidade03/ex01-variavel.html",
+		"/C/Users/Robson/Desktop/index.html/unidade04/ex05-escopo-variaveis.html",
+		"/C/Users/Robson/Desktop/index.html/unidade05/ex01-array.html",
+		"/C/Users/Robson/Desktop/index.html/unidade08/ex01-date.html",
+		"/C/Users/Robson/Desktop/index.html/unidade07/ex04-string.html",
+		"/C/Users/Robson/Desktop/index.html/unidade07/ex03-string.html",
+		"/C/Users/Robson/Desktop/index.html/unidade07/ex02-string.html",
+		"/C/Users/Robson/Desktop/index.html/unidade07/ex01-string.html",
+		"/C/Users/Robson/Desktop/index.html/unidade04/ex01-funcao.html",
+		"/C/Users/Robson/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.cache/01524fae79697630d0454ba3fabd9414",
+		"/C/wamp64/www/PIM/css/turmas.css",
+		"/C/wamp64/www/PIM/diario_de_classe_menu.html",
+		"/C/wamp64/www/PIM/css/anotacoes.css",
+		"/C/wamp64/www/PIM/forma/padrao.css",
+		"/C/wamp64/www/PIM/forma/forma.css",
+		"/C/wamp64/www/PIM/diario_de_classe.html",
+		"/C/wamp64/www/PIM/css/diario.css",
+		"/C/Users/Robson/Desktop/teste.html",
+		"/C/wamp64/www/diario_de_classe/css/padrao.css",
+		"/C/wamp64/www/diario_de_classe/diario_de_classe.html",
+		"/C/wamp64/www/diario_de_classe/css/css.css",
+		"/C/wamp64/www/php/index.php",
+		"/C/wamp64/www/diario_de_classe/css/dc.css",
+		"/C/wamp64/www/pagina_teste3/pagina_teste3/css/padrao.css",
+		"/C/wamp64/www/pagina_teste3/pagina_teste3/css/jane.css",
+		"/C/wamp64/www/pagina_teste3/pagina_teste3/janedoe3.html",
+		"/C/wamp64/www/pagina_teste2/forma/padrao.css",
+		"/C/wamp64/www/pagina_teste2/janedoe.html",
+		"/C/wamp64/www/brincadeiras/fortinite.html",
+		"/C/wamp64/www/pagina_teste2/forma/janedoe.css",
+		"/C/wamp64/www/pagina_teste3/janedoe3.html",
+		"/C/wamp64/www/pagina_teste/clone.html",
+		"/C/wamp64/www/pagina_teste/forma/padrao.css",
+		"/C/wamp64/www/pagina_teste/forma/clone.css",
+		"/C/wamp64/www/templates/css/temp.css",
+		"/C/wamp64/www/templates/pagina.html",
+		"/C/wamp64/www/template/temp.html",
+		"/C/wamp64/www/template/css/temp.css",
+		"/C/wamp64/www/padrao/padrao.html",
+		"/C/wamp64/www/padrao/padrao_css/padrao.css",
+		"/C/Program Files (x86)/Far Cry 3 Complete Collection/Far Cry 3/bin/FC3Updater.exe",
+		"/C/Users/Robson/Desktop/padrao_css_gledson.css",
+		"/C/Users/Robson/Desktop/padrao.html",
+		"/C/wamp64/www/diario_de_classe/forma/forma.css",
+		"/C/Users/Robson/Desktop/exercicos/teste.html",
+		"/C/wamp64/www/diario_de_classe/pagina_inicial.html",
+		"/C/wamp64/www/diario_de_classe/forma_do_site/forma.css",
+		"/C/wamp64/www/teste/css/arquivo.css",
+		"/C/wamp64/www/teste/html/teste.html",
+		"/C/wamp64/www/estudo/Forma/corinthians.html",
+		"/C/wamp64/www/estudo/css/arquivo.css",
+		"/C/wamp64/www/site/drum/drum.html",
+		"/C/wamp64/www/site/css/css.html",
+		"/C/wamp64/www/drum/index.html",
+		"/D/Forma/titulos/titulos.html",
+		"/D/Forma/tabela/tabela.html",
+		"/D/Forma/corinthians.html",
+		"/D/html/sites/esporte/futebol/times/corinthians/Home/corinthians.html",
+		"/D/html/sites/esporte/futebol/times/corinthians/noticias/noticias.html",
+		"/D/html/sites/esporte/futebol/times/corinthians/jogos/jogos.html",
+		"/D/html/index.htm",
+		"/D/html/sites/esporte/futebol/times/index.html",
+		"/D/html/sites/esporte/futebol/times/corinthians/corinthians.html",
+		"/D/html/esporte/futebol/times/corinthians/jogos/jogos.html",
+		"/D/html/Aulas/outros times/Futebol.htm",
+		"/D/html/esporte/futebol/times/flamengo/index.html",
+		"/C/Users/Robson/Desktop/html/Aulas/Corinthians.htm",
+		"/D/html/Aulas/corinthians/Corinthians.htm",
+		"/D/html/Aulas/Futebol.htm",
+		"/D/html/Aulas/Corinthians.htm",
+		"/C/Users/Robson/Desktop/html/Aulas/Futebol.htm",
+		"/C/Users/Robson/Desktop/html/index.htm",
+		"/C/Users/Robson/Desktop/Treino.htm"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 149.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Web.sublime-project",
+	"replace":
+	{
+		"height": 59.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 490.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 163.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

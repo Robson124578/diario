@@ -19,7 +19,7 @@
 		<nav>
 			<div onclick="botaoMenu()" class="menu-para-celular col-12 row">
 				<h2>menu</h2>
-				<i class="fas fa-ellipsis-v"></i>
+				<i class="fas fa-bars"></i>
 			</div>
 			<div class="menu col-12 row" id="menu-cel">
 				<ul>
@@ -33,7 +33,11 @@
 		</nav>
 		<section class="col-12 row">
 			<div class="container-conteudo col-12 row">
-				<div class="insercao-anotacao col-12 row">
+				<div class="botoes-anotacoes col-12 row" onclick="botaoanotacoes()">
+					<i class="fas fa-pencil-alt" title="Adicionar Plano de Aula."></i>
+					<h3 title="Adicionar Plano de Aula.">Adicionar</h3>
+				</div>
+				<div class="insercao-anotacao col-12 row" id="idAnotacao">
 					<form>
 							<label for="info">Anotação:</label><br>
 							<textarea id="info"></textarea><br>
