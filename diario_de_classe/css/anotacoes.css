@@ -1,3 +1,7 @@
+.conteudo-texto-anotacoes {
+	color: #ffffff;	
+}
+
 .insercao-anotacao {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -32,26 +36,10 @@ textarea:focus {
 	border:none;
 }
 
-h3 {
-	color: #5f5f5f;
-	display: inline-block;
-}
-
-.botoes-anotacoes {
-	border-bottom: 2px solid #a8aba8;
-}
-.botoes-anotacoes h3 {
-	cursor: pointer;
-}
-
-.anotacoesSalvas h3{
-	margin: 10px;
-}
 .anotacao {
 	height: 50px;
 	background:#5f5f5f;
 	margin-bottom: 2px;
-	overflow: y-auto;
 }
 
 

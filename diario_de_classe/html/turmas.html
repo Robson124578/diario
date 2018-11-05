@@ -5,8 +5,9 @@
 	<title>Document</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="../css/diarioDeClasse.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/diarioDeClasse.css">
+	<link rel="stylesheet" type="text/css" href="../css/turmas.css">
 </head>
 <body>
 	<div class="container-geral col-11 row">
@@ -32,7 +33,13 @@
 		</nav>
 		<section class="col-12 row">
 			<div class="container-conteudo col-12 row">
-				
+				<div class="botao col-12 row" onclick="botaoanotacoes()">
+					<i class="fas fa-plus-circle" title="Adicionar Plano de Aula."></i>
+					<h3 title="Adicionar Plano de Aula." id="adicionar">Adicionar Turma</h3>
+				</div>
+				<div class="turmas col-12 row">
+					<h3>Suas Turmas.</h3>
+				</div>
 			</div>
 		</section>
 		<footer>
