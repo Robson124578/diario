@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/diarioDeClasse.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/anotacoes.css">
+</head>
+<body>
+	<div class="container-geral col-11 row">
+		<header>
+			<div class="cabecalho col-12 row">
+				<h1>diário de classe</h1>
+			</div>
+		</header>
+		<nav>
+			<div onclick="botaoMenu()" class="menu-para-celular col-12 row">
+				<h2>menu</h2>
+				<i class="fas fa-bars"></i>
+			</div>
+			<div class="menu col-12 row" id="menu-cel">
+				<ul>
+					<li><a href="notas.html">notas</a></li>
+					<li><a href="turmas.html">turmas</a></li>
+					<li><a href="anotacoes.html">anotações</a></li>
+					<li><a href="planoDeAula.html">plano de aula</a></li>
+					<li><a href="chamada.html">chamada</a></li>
+				</ul>
+			</div>
+		</nav>
+		<section class="col-12 row">
+			<div class="container-conteudo col-12 row">
+				<div class="botao col-12 row" onclick="botaoanotacoes()">
+					<i class="fas fa-pencil-alt" title="Adicionar Plano de Aula."></i>
+					<h3 title="Adicionar Plano de Aula." id="adicionar">Adicionar</h3>
+				</div>
+				<div class="insercao-anotacao col-12 row" id="idAnotacao">
+					<form>
+							<label for="info">Anotação:</label><br>
+							<textarea id="info"></textarea><br>
+							<button onclick="salvarAnotacao(), botaoanotacoes()" type="button" title="Salvar Anotação">Salvar</button>
+					</form>
+				</div>
+				<div class="anotacoesSalvas col-12 row" id="idAnotacoesSalvas">
+					<h3>Registro de Anotações</h3>
+					<!-- <div class="anotacao col-12 row" id="anot" onclick="estenderAnotacao()">
+						<h4>data</h4>
+					</div> -->
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="rodape col-12 row" id="rodapee">
+				<p>Desenvolvido por: Robson Alves Moreira Pires.</p>
+				<p>robson.amp@outlook.com</p>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript" src="../js/diario_de_classe.js"></script>
+</body>
+</html>

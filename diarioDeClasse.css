@@ -1,0 +1,239 @@
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*definições gerais*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+/*CSS reset*/
+	*{margin: 0; 
+	 padding: 0; 
+	 box-sizing: border-box;}
+
+	.col-1 { width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 24.99%;}
+	.col-4 {width: 33.32%;}
+	.col-5 {width: 41.65%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;} 
+
+	.row::affer {
+		content: "";
+		clear: both;
+		display: block;
+	}
+
+	[class*="col-"] {height: auto;}
+
+	h1, h2, h3, h4, li, label, button {
+		color: #ffffff;
+		font-family: Arial Narrow, sans-serif;
+		text-transform: uppercase;
+	}
+
+	p {
+		font-family: Arial Narrow, sans-serif;
+	}
+	
+	li {
+		list-style-type: none;	
+	}
+	a {
+		text-decoration: none;
+	}
+/**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx**/
+/**xxxDEFINIÇÕES DE BOTÃOxxxx**/
+/**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx**/
+
+button {
+	width: 70px;
+	border-radius: 5px;
+	border: 2px solid #5f5f5f;
+	color: #5f5f5f;
+	font-family: Arial Narrow, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;	
+}
+button:hover {
+	background: #4f4f4f;
+	color: #4caf50;
+}
+
+.fas {
+	font-size: 30px;
+	color:#5f5f5f;
+	margin:10px 0 0 10px;
+}
+
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/	
+/*definições container-geral*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.container-geral{
+	height: auto;
+	margin: 0 auto;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/	
+/*Definições de cabecalho*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.cabecalho {
+	height: 70px;
+	background: #5f5f5f;
+	border-radius: 50px  50px 0 0;
+}
+
+.cabecalho h1 {
+	text-align: center;
+	padding-top: 10px;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*Definições para botão para expandir formulários*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.botao {
+	border-bottom: 2px solid #a8aba8;
+}
+.botao h3 {
+	cursor: pointer;
+	color: #5f5f5f;
+	display: inline-block;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*xxxxxxxxBotão do menu Bar xxxxxxx*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.fa-bars {
+	margin-top: 10px;
+	font-size: 25px;
+	color: #5f5f5f;
+	position: absolute;
+	right: 10px;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*Definições de menu*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.aparecer {
+	display: block !important;
+}
+.menu-para-celular {
+	height: 40px;
+	background: #a8aba8;
+	position: relative;
+	display: none;
+}
+
+.menu-para-celular h2 {
+	display: inline-block;
+	color: #5f5f5f;
+	margin: 10px;
+
+}
+
+.menu {
+	height: auto;
+	background: #a8aba8;
+	overflow: auto;
+}
+
+.menu ul li {
+	height: 40px;
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+.menu ul li:hover {
+	background: #4f4f4f;
+}
+.menu ul li a {
+	color:#ffffff;
+	display: block;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.menu ul li a:hover {
+	color: #4caf50;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*Definições do conteúdo*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.container-conteudo {
+	height: auto;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*definições de rodapé*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.rodape {
+	text-align: center;
+	height:50px;
+	border-radius: 0 0 50px 50px;
+	background: #5f5f5f; 
+}
+.rodape p {
+	color: #ffffff;
+	font-family: courier, sans-serif;
+	font-size: 12px;
+}
+.rodape p a { color:#ffffff;}
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*Definições para dispositivo móvel*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+@media only screen and (max-width: 768px){
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*Definições Gerais*/
+
+	
+	[class*="col-"] {
+		width: 100%;
+		border-radius:0 0 0 0;
+	}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/	
+/*definições do container-geral*/	
+
+
+	.container-geral {
+		min-width:320px;
+	}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/	
+/*definições de Menu*/
+		
+	.menu-para-celular {display: block;}
+
+	.menu {display: none;}
+
+	.aparecer {display: block !important;}
+
+	.sumir {display: none !important;}
+
+	.menu ul li {
+		float: none;
+		width: 100%;
+		height: 30px;
+	}
+	.menu ul li a {
+		padding: 0;
+		padding-bottom: 10px;
+	}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/	
+/*definições de rodapé*/	
+	
+}
