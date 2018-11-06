@@ -37,12 +37,39 @@ textarea:focus {
 }
 
 .anotacao {
-	height: 50px;
-	background:#5f5f5f;
-	margin-bottom: 2px;
+	height: auto;
+	background: #5f5f5f;
+	position: relative;
+	margin-bottom: 1px;
+}
+.anotacoesSalvas h3{
+	color: #5f5f5f;
+	margin: 10px;
 }
 
+.anotacao h2 {
+	font-size: 1em;
+}
 
 .anotacao:hover {
 	background: #a8aba8;
 }
+.tituloNovaDiv {
+	display: inline-block;
+	margin:10px 10px 15px 10px;
+
+}
+.fa-ellipsis-v {
+	color: #ffffff;
+	font-size: 25px;
+	position: absolute;
+	right : 10px;
+	top: 0;
+	cursor: pointer;
+}
+.conteudo-texto-anotacoes {
+	margin-left: 10px;
+}
+.sumir {display: none}
+
+.aparecer {display: block !important;}
