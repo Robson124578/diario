@@ -1,0 +1,10 @@
+{"aluno"
+	{
+		"matricula":"",
+		"nome":"",
+		"turma":"",
+		"telefone":"",
+		"professor":"",
+		"endereco":""
+	}
+}
