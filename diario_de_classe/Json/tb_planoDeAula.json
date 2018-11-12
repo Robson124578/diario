@@ -1,10 +1,7 @@
-{"plano_de_aula":
-	{
-		"id_usuario":"",
-		"tema":"",
-		"objetivo":"",
-		"conteudo":"",
-		"recursos_necessarios":"",
-		"referencias":""
-	}
-}
+{"plano_de_aula":[
+	{"id_plano_de_aula":"","id_turma":"","tema":"","conteudo":"","metodologia_de_ensino":"","recursos_necessarios":"","referencias":""},
+	{"id_plano_de_aula":"","id_turma":"","tema":"","conteudo":"","metodologia_de_ensino":"","recursos_necessarios":"","referencias":""},
+	{"id_plano_de_aula":"","id_turma":"","tema":"","conteudo":"","metodologia_de_ensino":"","recursos_necessarios":"","referencias":""},
+	{"id_plano_de_aula":"","id_turma":"","tema":"","conteudo":"","metodologia_de_ensino":"","recursos_necessarios":"","referencias":""},
+	{"id_plano_de_aula":"","id_turma":"","tema":"","conteudo":"","metodologia_de_ensino":"","recursos_necessarios":"","referencias":""}
+]}

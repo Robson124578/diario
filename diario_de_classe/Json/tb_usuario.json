@@ -1,9 +1,9 @@
 {"usuario":[
-	{"id_usuario":"","nome":"","email":"","senha":"","data_nasc":""},
-	{"id_usuario":"","nome":"","email":"","senha":"","data_nasc":""},
-	{"id_usuario":"","nome":"","email":"","senha":"","data_nasc":""},
-	{"id_usuario":"","nome":"","email":"","senha":"","data_nasc":""},
-	{"id_usuario":"","nome":"","email":"","senha":"","data_nasc":""},
-	{"id_usuario":"","nome":"","email":"","senha":"","data_nasc":""},
-	{"id_usuario":"","nome":"","email":"","senha":"","data_nasc":""}
+	{"id_professor":"","nome":"","data_nascimento":"","email":""},
+	{"id_professor":"","nome":"","data_nascimento":"","email":""},
+	{"id_professor":"","nome":"","data_nascimento":"","email":""},
+	{"id_professor":"","nome":"","data_nascimento":"","email":""},
+	{"id_professor":"","nome":"","data_nascimento":"","email":""},
+	{"id_professor":"","nome":"","data_nascimento":"","email":""},
+	{"id_professor":"","nome":"","data_nascimento":"","email":""}
 ]}

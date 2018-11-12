@@ -1,10 +1,6 @@
-{"aluno"
-	{
-		"matricula":"",
-		"nome":"",
-		"turma":"",
-		"telefone":"",
-		"professor":"",
-		"endereco":""
-	}
-}
+{"aluno":[
+	{"matricula":"","nome":"","turma":"","telefone":"","email":""},
+	{"matricula":"","nome":"","turma":"","telefone":"","email":""},
+	{"matricula":"","nome":"","turma":"","telefone":"","email":""},
+	{"matricula":"","nome":"","turma":"","telefone":"","email":""}
+]}
