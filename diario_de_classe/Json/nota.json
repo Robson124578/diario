@@ -1,7 +1,7 @@
-{"notas":[
-	{"id_nota":"","id_turma":"","matricula":"","nota":""},
-	{"id_nota":"","id_turma":"","matricula":"","nota":""},
-	{"id_nota":"","id_turma":"","matricula":"","nota":""},
-	{"id_nota":"","id_turma":"","matricula":"","nota":""},
-	{"id_nota":"","id_turma":"","matricula":"","nota":""}
+{"nota":[
+	{"id_nota":"","id_aluno":"","id_turma":"","nota":""},
+	{"id_nota":"","id_aluno":"","id_turma":"","nota":""},
+	{"id_nota":"","id_aluno":"","id_turma":"","nota":""},
+	{"id_nota":"","id_aluno":"","id_turma":"","nota":""},
+	{"id_nota":"","id_aluno":"","id_turma":"","nota":""}
 ]}

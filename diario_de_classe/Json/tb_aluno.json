@@ -1,6 +1,6 @@
 {"aluno":[
-	{"matricula":"","nome":"","turma":"","telefone":"","email":""},
-	{"matricula":"","nome":"","turma":"","telefone":"","email":""},
-	{"matricula":"","nome":"","turma":"","telefone":"","email":""},
-	{"matricula":"","nome":"","turma":"","telefone":"","email":""}
+	{"id_aluno":"","nome":"","id_turma":"","telefone":"","email":"","aluno_data":""},
+	{"id_aluno":"","nome":"","id_turma":"","telefone":"","email":"","aluno_data":""},
+	{"id_aluno":"","nome":"","id_turma":"","telefone":"","email":"","aluno_data":""},
+	{"id_aluno":"","nome":"","id_turma":"","telefone":"","email":"","aluno_data":""}
 ]}

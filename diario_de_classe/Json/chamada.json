@@ -1,7 +1,7 @@
 {"chamada":[
-	{"id_chamada":"","matricula":"","id_turma":"","nome":"","presente":"","ausente":""},
-	{"id_chamada":"","matricula":"","id_turma":"","nome":"","presente":"","ausente":""},
-	{"id_chamada":"","matricula":"","id_turma":"","nome":"","presente":"","ausente":""},
-	{"id_chamada":"","matricula":"","id_turma":"","nome":"","presente":"","ausente":""},
-	{"id_chamada":"","matricula":"","id_turma":"","nome":"","presente":"","ausente":""}
+	{"id_chamada":"","id_aluno":"","id_turma":"","presenca":"","chamada_data":""},
+	{"id_chamada":"","id_aluno":"","id_turma":"","presenca":"","chamada_data":""},
+	{"id_chamada":"","id_aluno":"","id_turma":"","presenca":"","chamada_data":""},
+	{"id_chamada":"","id_aluno":"","id_turma":"","presenca":"","chamada_data":""},
+	{"id_chamada":"","id_aluno":"","id_turma":"","presenca":"","chamada_data":""}
 ]}
