@@ -1,9 +1,58 @@
+/*********************************/
+/**função para expandir cadastro**/
+/*********************************/
+
+function expandirCadastro() {
+	document.getElementById("id_cadastro").classList.toggle("surgir");
+	var texto = document.getElementsByTagName("p")[0].textContent;
+
+	if (texto == "Cadastrar") {
+			document.getElementsByTagName("p")[0].textContent = "FECHAR";
+			document.getElementsByTagName("p")[0].setAttribute("title", "Fechar...")		
+	} else if (texto == "FECHAR") {
+			document.getElementsByTagName("p")[0].textContent = "Cadastrar";
+			document.getElementsByTagName("p")[0].setAttribute("title", "Recuperar Usuário ou Senha...")
+	}
+}
+
+function expandirRecuperacaoDeSenha() {
+	document.getElementById("id_recuperar_senha").classList.toggle("surgir");
+	var texto = document.getElementsByTagName("p")[1].textContent;
+
+if (texto == "Recuperar Senha") {
+			document.getElementsByTagName("p")[1].textContent = "FECHAR";
+			document.getElementsByTagName("p")[1].setAttribute("title", "Fechar...")		
+	} else if (texto == "FECHAR") {
+			document.getElementsByTagName("p")[1].textContent = "Recuperar Senha";
+			document.getElementsByTagName("p")[1].setAttribute("title", "Recuperar Usuário ou Senha...")
+	}
+ }
+/********************************/
+/********validar campo senha******/
+/********************************/
+
+function validaSenha(input) {
+	var primeiraSenha = document.getElementById("senha1").value;
+	if (input.value != primeiraSenha) {
+		input.setCustomValidity('As senhas não conferem !!!');
+	}
+	else {
+		inpu.setCustomValidity('');
+	}
+}
+
 /********************************/
 /**função para o menu principal**/
 /********************************/
 
 function botaoMenu() {
-	 document.getElementById("menu-cel").classList.toggle("aparecer");
+	document.getElementById("menu-cel").classList.toggle("aparecer");
+
+	document.getElementById("superior").classList.toggle("menu-barra-Sup");
+
+	document.getElementById("centro").classList.toggle("desaparecer-barra-central");
+
+	document.getElementById("inferior").classList.toggle("menu-barra-Inf");
  }
 
 /************************************/
@@ -31,11 +80,43 @@ function botaoanotacoes() {
 	document.getElementById("idAnotacao").classList.toggle("aparecer");
 
 	var mudaTexto = document.getElementById("adicionar").textContent;
-	if (mudaTexto == "Adicionar") {
+	if (mudaTexto == "Adicionar Anotação") {
 		document.getElementById("adicionar").textContent = "Fechar";
 	}
 	else if (mudaTexto == "Fechar") {
-		document.getElementById("adicionar").textContent = "Adicionar";		
+		document.getElementById("adicionar").textContent = "Adicionar Anotação";		
+	}
+}
+
+/*******************************/
+/**função para botão Turmas **/
+/*******************************/
+
+function botaoGeral() {
+
+	document.getElementById("insercaoTurma").classList.toggle("aparecer");
+
+	var mudaTexto = document.getElementById("adicionar").textContent;
+	if (mudaTexto == "Adicionar Turma") {
+		document.getElementById("adicionar").textContent = "Fechar";
+	}
+	else if (mudaTexto == "Fechar") {
+		document.getElementById("adicionar").textContent = "Adicionar Turma";		
+	}
+}
+/*******************************/
+/**função para botão Notas **/
+/*******************************/
+
+function botaoNotas() {
+	document.getElementById("id-nota").classList.toggle("aparecer");
+
+	var conteudoDeTexto = document.getElementById("tituloNotas").textContent;
+	if (conteudoDeTexto == "Lançar nota") {
+		document.getElementById("tituloNotas").textContent = "Fechar";
+	}
+	else if (conteudoDeTexto == "Fechar") {
+		document.getElementById("tituloNotas").textContent = "Lançar nota";
 	}
 }
 

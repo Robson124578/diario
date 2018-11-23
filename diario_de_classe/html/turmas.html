@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../css/diarioDeClasse.css">
-	<link rel="stylesheet" type="text/css" href="../css/turmas.css">
+	<link rel="stylesheet" type="text/css" href="../css/turma.css">
 </head>
 <body>
 	<div class="container-geral col-11 row">
@@ -20,12 +20,16 @@
 		<nav>
 			<div onclick="botaoMenu()" class="menu-para-celular col-12 row">
 				<h2>menu</h2>
-				<i class="fas fa-bars"></i>
+				<div class="menu-bar" onclick="transformarIcone()">
+					<div class="barra-superior" id="superior"></div>
+					<div class="barra-central"  id="centro"></div>
+					<div class="barra-inferior" id="inferior"></div>	
+				</div>
 			</div>
 			<div class="menu col-12 row" id="menu-cel">
 				<ul>
 					<li><a href="notas.html">notas</a></li>
-					<li><a href="turmas.html">turmas</a></li>
+					<li class="filho2"><a href="turmas.html">turmas</a></li>
 					<li><a href="anotacoes.html">anotações</a></li>
 					<li><a href="planoDeAula.html">plano de aula</a></li>
 					<li><a href="chamada.html">chamada</a></li>
@@ -34,9 +38,24 @@
 		</nav>
 		<section class="col-12 row">
 			<div class="container-conteudo col-12 row">
-				<div class="botao col-12 row" onclick="botaoanotacoes()">
+				<div class="botao col-12 row" onclick="botaoGeral()">
 					<i class="fas fa-plus-circle" title="Adicionar Plano de Aula."></i>
 					<h3 title="Adicionar Plano de Aula." id="adicionar">Adicionar Turma</h3>
+				</div>
+				<div class="insercao-turma row col-12" id="insercaoTurma">
+					<form>
+						<label for="nome-turma">nome da turma:</label>
+						<input type="text" name="nome-turma" id="nome-turma" placeholder="Preencha aqui..." title="Digite o nome da Turma">
+						<label for="serie-turma">serie:</label>
+						<input type="text" name="serie-turma" id="serie-turma" placeholder="Preencha aqui..." title="Digite a Série da turma">
+						<label for="qtd-alunos">quantidade de alunos:</label>
+						<input type="number" min="1" max="100" name="qtd-alunos" id="qtd-alunos" placeholder="Preencha aqui..." title="Selecione a Quantidade de Alunos.">
+						<label for="disciplina-turma">disciplina ministrada:</label>
+						<input type="text" name="disciplina-turma" id="disciplina-turma" placeholder="Preencha aqui..." title="">
+						<button type="submit" title="Salvar Cadastro de Turma.">Enviar</button>
+						<!-- <label for=""></label>
+						<input type="" name="" id="" placeholder="Preencha aqui..." title=""> -->
+					</form>
 				</div>
 				<div class="turmas col-12 row">
 					<h3>Suas Turmas.</h3>

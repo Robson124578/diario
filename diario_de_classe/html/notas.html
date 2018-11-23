@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../css/diarioDeClasse.css">
+	<link rel="stylesheet" type="text/css" href="../css/nota.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
@@ -19,11 +20,15 @@
 		<nav>
 			<div onclick="botaoMenu()" class="menu-para-celular col-12 row">
 				<h2>menu</h2>
-				<i class="fas fa-bars"></i>
+				<div class="menu-bar" onclick="transformarIcone()">
+					<div class="barra-superior" id="superior"></div>
+					<div class="barra-central"  id="centro"></div>
+					<div class="barra-inferior" id="inferior"></div>	
+				</div>
 			</div>
 			<div class="menu col-12 row" id="menu-cel">
 				<ul>
-					<li><a href="notas.html">notas</a></li>
+					<li class="filho1"><a href="notas.html">notas</a></li>
 					<li><a href="turmas.html">turmas</a></li>
 					<li><a href="anotacoes.html">anotações</a></li>
 					<li><a href="planoDeAula.html">plano de aula</a></li>
@@ -33,7 +38,34 @@
 		</nav>
 		<section class="col-12 row">
 			<div class="container-conteudo col-12 row">
-				
+				<div class="botao col-12 row" onclick="botaoNotas()">
+					<i class="fas fa-pencil-alt" title="Lançar Nota."></i>
+					<h3 title="Lançar Nota." id="tituloNotas">Lançar nota</h3>
+				</div>
+				<div class="notas col-12 row" id="id-nota">
+					<form>
+						<label for="turma" title="Selecione a Turma">turma:</label>
+						<select name="turma" id="turma" required>
+							<option value=""></option>
+							<option value="turma">turma-A</option>
+							<option value="turma">turma-B</option>
+							<option value="turma">turma-C</option>
+						</select>
+
+						<label for="aluno" title="Selecione o Aluno">aluno:</label>
+						<select name="aluno" id="aluno" required>
+							<option value=""></option>
+							<option value="aluno">aluno-1</option>
+							<option value="aluno">aluno-2</option>
+							<option value="aluno">aluno-3</option>
+						</select>
+						<label for="nota" title="Insira a Nota do Aluno">nota:</label>
+						<input type="text" placeholder="Preencha aqui" required>
+						
+						<button type="submit" title="Salvar Nota.">salvar</button>
+					</form>
+					
+				</div>
 			</div>
 		</section>
 		<footer>
