@@ -3,17 +3,17 @@
 include("conexao.php");
 
 ///////////////////////////////////////////
-///Criando a Tabela
+///Criando a Tabela usuário
 ///////////////////////////////////////////
 
 
-// $sql = "CREATE TABLE tb_usuario (tb_usuario_id_usuario INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-// 								tb_usuario_nome_completo VARCHAR(30) NOT NULL,
-// 								tb_usuario_data_nascimento DATE NOT NULL,
-// 								tb_usuario_email VARCHAR (30) NOT NULL,
-// 								tb_usuario_nome_usuario VARCHAR (30) NOT NULL,
-// 								tb_usuario_senha INT(10) NOT NULL, 
-// 								tb_usuario_data TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP
+// $sql = "CREATE TABLE tb_usuario (tb_usuario_id_usuario 	INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+// 								tb_usuario_nome_completo 	VARCHAR(30) NOT NULL,
+// 								tb_usuario_data_nascimento 	DATE NOT NULL,
+// 								tb_usuario_email 			VARCHAR (30) NOT NULL,
+// 								tb_usuario_nome_usuario 	VARCHAR (30) NOT NULL,
+// 								tb_usuario_senha 			INT(10) NOT NULL, 
+// 								tb_usuario_data 			TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP
 // 							)";
 
 // if ($conn->query($sql) === TRUE) {

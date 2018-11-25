@@ -44,17 +44,21 @@
 					<h3 title="Adicionar anotação." id="adicionar">Adicionar Anotação</h3>
 				</div>
 				<div class="insercao-anotacao col-12 row" id="idAnotacao">
-					<form  action="../dao/anotacaoDAO.php" method="post">
+					<form  action="../dao/tbAnotacao.php" method="post">
+							<label for="anotacao-assunto">assunto:</label>
+							<input type="text" name="tb_anotacao_assunto" id="anotacao-assunto">
+							<label for="anotacao-data">data:</label>
+							<input type="date" name="tb_anotacao_data_criacao" id="anotacao-data">	
 							<label for="info">Anotação:</label><br>
-							<textarea id="info" name=""></textarea><br>
-							<button onclick="salvarAnotacao(), botaoanotacoes()" type="submit" title="Salvar Anotação">Salvar</button>
+							<textarea id="info" name="tb_anotacao_anotacao"></textarea><br>
+							<button type="submit" title="Salvar Anotação">Salvar</button>
 					</form>
 				</div>
 				<div class="anotacoesSalvas col-12 row" id="idAnotacoesSalvas">
 					<h3>Registro de Anotações</h3>
-					<!-- <div class="anotacao col-12 row" id="anot" onclick="estenderAnotacao()">
-						<h4>data</h4>
-					</div> -->
+					<div class="anotacao col-12 row" id="anot" onclick="estenderAnotacao()">
+						<h4>minhas anotações</h4>
+					</div>
 				</div>
 			</div>
 		</section>

@@ -44,26 +44,28 @@
 				</div>
 				<div class="planoDeAula col-12 row botaoesconder" id="planosDeAula">
 					<div class="cabecalhoPlanosDeAula row col-12">	
-						<form>
-							<label for="turma">turma:</label>
-							<select id="turma" id="turma" name="turma" required="" title="selecione a turma">
+						<form action="../dao/tbPlanoDeAula.php" method="post">
+							<label for="id_turma">turma:</label>
+							<select id="turma" id="id_turma" name="tb_plano_de_aula_id_turma" required="" title="selecione a turma">
 								<option>SELECIONE</option>
 								<option id="idturma">TurmaA</option>
 								<option id="idturma">TurmaA</option>
 								<option id="idturma">TurmaA</option>
 							</select>
 							<label for="tema">tema:</label>
-							<input type="text" name="tema" id="tema" placeholder="Preencha aqui..." required="" title="Digite o tema do plano de aula.">
-							<label for="objetivo">objetivo:</label>
-							<input type="text" name="objetivo" id="objetivo" placeholder="Preencha aqui..." required="" title="Digite o objetivo do plano de aula.">
+							<input type="text" name="tb_plano_de_aula_tema" id="tema" placeholder="Preencha aqui..." required="" title="Digite o tema do plano de aula.">
+							<label for="id_data">data</label>
+							<input type="date" name="tb_plano_de_aula_data" id="id_data">
 							<label for="conteudo">conteúdo:</label>
-							<input type="text" name="conteudo" id="conteudo" placeholder="Preencha aqui..." required="" title="Digite sobre o conteúdo">
+							<input type="text" name="tb_plano_de_aula_conteudo" id="conteudo" placeholder="Preencha aqui..." required="" title="Digite sobre o conteúdo">
 							<label for="metodologia">metodologia de ensino:</label>
-							<input type="text" name="metodologia" id="metodologia" placeholder="Preencha aqui..." required="" title="Metodologia de ensino utilizada.">
+							<input type="text" name="tb_plano_de_aula_metodologia_de_ensino" id="metodologia" placeholder="Preencha aqui..." required="" title="Metodologia de ensino utilizada.">
+							<label for="objetivo">objetivo:</label>
+							<input type="text" name="tb_plano_de_aula_objetivo" id="objetivo" placeholder="Preencha aqui..." required="" title="Digite o objetivo do plano de aula.">
 							<label for="recursos">Recursos necessários:</label>
-							<input type="text" name="recursos" id="recursos" placeholder="Preencha aqui..." required="" title="Recurssos que serão utilizados.">
+							<input type="text" name="tb_plano_de_aula_recursos_necessarios" id="recursos" placeholder="Preencha aqui..." required="" title="Recurssos que serão utilizados.">
 							<label for="referencias">referências:</label>
-							<input type="text" name="referencias" id="referencias" placeholder="Preencha aqui..." required="" title="Referências utilizadas">
+							<input type="text" name="tb_plano_de_aula_referencias" id="referencias" placeholder="Preencha aqui..." required="" title="Referências utilizadas">
 							<button type="submit">salvar</button>
 						</form>
 					</div>	

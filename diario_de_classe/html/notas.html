@@ -43,9 +43,9 @@
 					<h3 title="Lançar Nota." id="tituloNotas">Lançar nota</h3>
 				</div>
 				<div class="notas col-12 row" id="id-nota">
-					<form>
+					<form action="../dao/tbNota.php" method="post">
 						<label for="turma" title="Selecione a Turma">turma:</label>
-						<select name="turma" id="turma" required>
+						<select name="tb_nota_turma" id="turma" required>
 							<option value=""></option>
 							<option value="turma">turma-A</option>
 							<option value="turma">turma-B</option>
@@ -53,15 +53,16 @@
 						</select>
 
 						<label for="aluno" title="Selecione o Aluno">aluno:</label>
-						<select name="aluno" id="aluno" required>
+						<select name="tb_nota_id_aluno" id="aluno" required>
 							<option value=""></option>
 							<option value="aluno">aluno-1</option>
 							<option value="aluno">aluno-2</option>
 							<option value="aluno">aluno-3</option>
 						</select>
+						<label for="id_periodo">periodo:</label>
+						<input type="text" name="tb_nota_periodo" id="id_periodo">
 						<label for="nota" title="Insira a Nota do Aluno">nota:</label>
-						<input type="text" placeholder="Preencha aqui" required>
-						
+						<input type="text" name="tb_nota_nota" placeholder="Preencha aqui" required>						
 						<button type="submit" title="Salvar Nota.">salvar</button>
 					</form>
 					
