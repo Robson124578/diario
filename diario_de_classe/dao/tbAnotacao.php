@@ -28,11 +28,17 @@ include("conexao.php");
 
 foreach ($_POST as $variavel => $valor) {
 	$$variavel = $valor;
-
-	echo "<br>" . $variavel . "=" . $valor;
 }
 
-$sql = " INSERT INTO tb_anotacao(tb_anotacao_assunto, 
+//variável vai pegar o tipo de ação. 
+$acao = $_GET['acao'];
+
+
+
+if ($acao == "cadastrar") {
+
+	
+	$sql = " INSERT INTO tb_anotacao(tb_anotacao_assunto, 
 								 tb_anotacao_data_criacao, 
 								 tb_anotacao_anotacao) 
 		  VALUES (?,?,?)";
@@ -45,8 +51,37 @@ $stmt->execute();
 
 	echo "<br><br><br>Dados inseridos na tabela ('tb_anotacao') com sucesso !";
 
-var_dump($sql);
 
 $stmt->close();
+
+} else 
+if ($acao == "alterar") {
+	$sql = "UPDATE tb_anotacao SET
+								   tb_anotacao_assunto =      '".$tb_anotacao_assunto."', 
+								   tb_anotacao_data_criacao = '".$tb_anotacao_data_criacao."', 
+								   tb_anotacao_anotacao=       '".$tb_anotacao_anotacao."' WHERE tb_anotacao_id_anotacao =".$tb_anotacao_id_anotacao;
+
+	if (mysqli_query($conn, $sql)) {
+
+    echo "Record updated successfully";
+} else {
+    echo "Error updating record: " . mysqli_error($conn);
+}
+
+}  
+ else 
+if ($acao == "excluir") {
+	$sql = "DELETE FROM tb_anotacao WHERE tb_anotacao_id_anotacao =".$tb_anotacao_id_anotacao;
+
+	if (mysqli_query($conn, $sql)) {
+    echo "Record deleted successfully";
+} 	else {
+    	echo "Error deleting record: " . mysqli_error($conn);
+	}
+	
+}  
+
 $conn->close();
+header("Location:http://localhost:8080/diario_de_classe/php/anotacoes.php");
+exit();
 ?>

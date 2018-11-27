@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.3
+-- version 4.7.9
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: 25-Nov-2018 às 17:15
--- Versão do servidor: 5.7.23
--- versão do PHP: 7.2.10
+-- Generation Time: 27-Nov-2018 às 19:35
+-- Versão do servidor: 5.7.21
+-- PHP Version: 7.0.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -21,8 +21,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `dbdiariodeclasse`
 --
-CREATE DATABASE IF NOT EXISTS `dbdiariodeclasse` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `dbdiariodeclasse`;
 
 -- --------------------------------------------------------
 
@@ -58,14 +56,7 @@ CREATE TABLE IF NOT EXISTS `tb_anotacao` (
   `tb_anotacao_data` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`tb_anotacao_id_anotacao`),
   KEY `FK_tb_anotacao_id_usuario` (`tb_anotacao_id_usuario`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
-
---
--- Extraindo dados da tabela `tb_anotacao`
---
-
-INSERT INTO `tb_anotacao` (`tb_anotacao_id_anotacao`, `tb_anotacao_assunto`, `tb_anotacao_data_criacao`, `tb_anotacao_id_usuario`, `tb_anotacao_anotacao`, `tb_anotacao_data`) VALUES
-(3, 'As principáis formas de conhecimento humano.', '2018-12-01', NULL, 'Em linguística, a noção de texto é ampla e ainda aberta a uma definição mais precisa. Grosso modo, pode ser entendido como manifestação linguística das ideias de um autor, que serão interpretadas pelo leitor de acordo com seus conhecimentos linguísticos e culturais. Seu tamanho é variável. Wikipédia\r\nEm linguística, a noção de texto é ampla e ainda aberta a uma definição mais precisa. Grosso modo, pode ser entendido como manifestação linguística das ideias de um autor, que serão interpretadas pelo leitor de acordo com seus conhecimentos linguísticos e culturais. Seu tamanho é variável. Wikipédia\r\n', '2018-11-25 13:46:57');
+) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -132,14 +123,21 @@ CREATE TABLE IF NOT EXISTS `tb_turma` (
   `tb_turma_disciplina_ministrada` varchar(70) NOT NULL,
   `tb_turma_data` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`tb_turma_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1 COMMENT='				';
+) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=latin1 COMMENT='				';
 
 --
 -- Extraindo dados da tabela `tb_turma`
 --
 
 INSERT INTO `tb_turma` (`tb_turma_id`, `tb_turma_nome`, `tb_turma_serie`, `tb_turma_periodo`, `tb_turma_qtd_alunos`, `tb_turma_disciplina_ministrada`, `tb_turma_data`) VALUES
-(2, 'turminha da mônica', '3° ano', 'vespertino', '100', 'português', '2018-11-25 13:43:27');
+(2, 'turminha da mônica', '3° ano', 'vespertino', '100', 'português', '2018-11-25 13:43:27'),
+(3, 'turma A', '3° b', 'Matutino', '33', 'Matemática', '2018-11-26 15:04:19'),
+(4, 'turma A', '3Â° b', 'Matutino', '33', 'MatemÃ¡tica', '2018-11-26 15:05:34'),
+(5, 'turma A', '3Â° b', 'Matutino', '33', 'MatemÃ¡tica', '2018-11-26 15:05:57'),
+(6, 'turma A', '3Â° b', 'Matutino', '12', 'MatemÃ¡tica', '2018-11-26 15:40:51'),
+(7, '', '', '', '', '', '2018-11-26 15:53:54'),
+(8, '', '', '', '', '', '2018-11-26 15:55:41'),
+(9, '', '', '', '', '', '2018-11-26 15:56:24');
 
 -- --------------------------------------------------------
 
@@ -149,23 +147,24 @@ INSERT INTO `tb_turma` (`tb_turma_id`, `tb_turma_nome`, `tb_turma_serie`, `tb_tu
 
 DROP TABLE IF EXISTS `tb_usuario`;
 CREATE TABLE IF NOT EXISTS `tb_usuario` (
-  `tb_usuario_id_usuario` int(100) UNSIGNED NOT NULL,
-  `tb_usuario_nome_completo` varchar(70) NOT NULL,
+  `tb_usuario_id_usuario` int(100) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `tb_usuario_nome_completo` varchar(100) NOT NULL,
   `tb_usuario_data_nascimento` date NOT NULL,
-  `tb_usuario_email` varchar(70) NOT NULL,
-  `tb_usuario_nome_usuario` varchar(70) NOT NULL,
-  `tb_usuario_senha` int(10) NOT NULL,
+  `tb_usuario_email` varchar(100) NOT NULL,
+  `tb_usuario_nome_usuario` varchar(100) NOT NULL,
+  `tb_usuario_senha` int(100) NOT NULL,
   `tb_usuario_data` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`tb_usuario_id_usuario`)
-) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 --
 -- Extraindo dados da tabela `tb_usuario`
 --
 
 INSERT INTO `tb_usuario` (`tb_usuario_id_usuario`, `tb_usuario_nome_completo`, `tb_usuario_data_nascimento`, `tb_usuario_email`, `tb_usuario_nome_usuario`, `tb_usuario_senha`, `tb_usuario_data`) VALUES
-(11, 'joão', '1985-02-01', 'joao@gmail.com', 'jojó', 124578, '2018-11-25 12:11:55'),
-(12, 'Róbson', '1985-02-01', 'joao@gmail.com', 'zezé', 124578, '2018-11-25 12:35:55');
+(1, 'joão alves da costa', '2018-02-01', 'juquito@hotmail', 'juca', 124578, '2018-11-26 17:03:53'),
+(2, 'joão alves da costa', '2018-02-01', 'juquito@hotmail', 'juca', 124578, '2018-11-26 17:04:46'),
+(3, 'joão alves da costa', '2018-02-01', 'juquito@hotmail', 'juca', 124578, '2018-11-26 17:34:59');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/diarioDeClasse.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/planoDeAula.css">
+</head>
+<body>
+	<div class="container-geral col-11 row">
+		<header>
+			<div class="cabecalho col-12 row">
+				<h1>diário de classe</h1>
+				<a href="../index.html"><i class="fas fa-sign-out-alt" title="sair"></i></a>
+			</div>
+		</header>
+		<nav>
+			<div onclick="botaoMenu()" class="menu-para-celular col-12 row">
+				<h2>menu</h2>
+				<div class="menu-bar" onclick="transformarIcone()">
+					<div class="barra-superior" id="superior"></div>
+					<div class="barra-central"  id="centro"></div>
+					<div class="barra-inferior" id="inferior"></div>	
+				</div>
+			</div>
+			<div class="menu col-12 row" id="menu-cel">
+				<ul>
+					<li><a href="notas.php">notas</a></li>
+					<li><a href="turmas.php">turmas</a></li>
+					<li><a href="anotacoes.php">anotações</a></li>
+					<li class="filho4"><a href="planoDeAula.php">plano de aula</a></li>
+					<li><a href="chamada.php">chamada</a></li>
+				</ul>
+			</div>
+		</nav>
+		<section class="col-12 row">
+			<div class="container-conteudo col-12 row">
+				<div class="botao col-12 row" onclick="botaoPlanosDeAula()">
+					<i class="fas fa-pencil-alt" title="Adicionar Plano de Aula."></i>
+					<h3 title="Adicionar Plano de Aula." id="adicionar">Adicionar</h3>
+				</div>
+				<div class="planoDeAula col-12 row botaoesconder" id="planosDeAula">
+					<div class="cabecalhoPlanosDeAula row col-12">	
+						<form action="../dao/tbPlanoDeAula.php" method="post">
+							<label for="id_turma">turma:</label>
+							<select id="turma" id="id_turma" name="tb_plano_de_aula_id_turma" required="" title="selecione a turma">
+								<option>SELECIONE</option>
+								<option id="idturma">TurmaA</option>
+								<option id="idturma">TurmaA</option>
+								<option id="idturma">TurmaA</option>
+							</select>
+							<label for="tema">tema:</label>
+							<input type="text" name="tb_plano_de_aula_tema" id="tema" placeholder="Preencha aqui..." required="" title="Digite o tema do plano de aula.">
+							<label for="id_data">data</label>
+							<input type="date" name="tb_plano_de_aula_data" id="id_data">
+							<label for="conteudo">conteúdo:</label>
+							<input type="text" name="tb_plano_de_aula_conteudo" id="conteudo" placeholder="Preencha aqui..." required="" title="Digite sobre o conteúdo">
+							<label for="metodologia">metodologia de ensino:</label>
+							<input type="text" name="tb_plano_de_aula_metodologia_de_ensino" id="metodologia" placeholder="Preencha aqui..." required="" title="Metodologia de ensino utilizada.">
+							<label for="objetivo">objetivo:</label>
+							<input type="text" name="tb_plano_de_aula_objetivo" id="objetivo" placeholder="Preencha aqui..." required="" title="Digite o objetivo do plano de aula.">
+							<label for="recursos">Recursos necessários:</label>
+							<input type="text" name="tb_plano_de_aula_recursos_necessarios" id="recursos" placeholder="Preencha aqui..." required="" title="Recurssos que serão utilizados.">
+							<label for="referencias">referências:</label>
+							<input type="text" name="tb_plano_de_aula_referencias" id="referencias" placeholder="Preencha aqui..." required="" title="Referências utilizadas">
+							<button type="submit">salvar</button>
+						</form>
+					</div>	
+				</div>
+					<div class="cabecalhoPlanosDeAula">
+						<header>
+							<h3>planos de aula salvos</h3>
+						</header>
+					</div>
+			</div>
+		</section>
+		<footer>
+			<div class="rodape col-12 row">
+				<p>Desenvolvido por: Robson Alves Moreira Pires.</p>
+				<p>robson.amp@outlook.com</p>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript" src="../js/diario_de_classe.js"></script>
+</body>
+</html>
